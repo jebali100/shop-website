@@ -1,0 +1,52 @@
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 60%;
+    padding: 10px; /* Augmentez la marge intérieure pour un aspect plus aéré à l'intérieur des champs */
+    margin-bottom: 15px; /* Augmentez la marge inférieure entre les champs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 40px;
+    font-size: 14px;
+    transition: border-color 0.3s; /* Ajoutez une transition pour l'effet de survol */
+}
+
+.form-control:hover {
+    border-color: #007bff; /* Changez la couleur de la bordure au survol */
+}
+
+.form-control:focus {
+    outline: none; /* Supprimez la bordure bleue par défaut du champ de saisie lorsqu'il est en focus */
+    border-color: #007bff; /* Changez la couleur de la bordure lorsque le champ est en focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Ajoutez une légère ombre pour indiquer le focus */
+}
+
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+

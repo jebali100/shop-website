@@ -1,0 +1,27 @@
+.navbar {
+    background: linear-gradient(to right, #007bff, #2196f3); /* Dégradé linéaire de bleu */
+    }
+
+.navbar-nav .nav-link {
+    color: white; /* Couleur du texte en blanc */
+    margin-right: 20px; /* Espacement entre les éléments de la barre de navigation */
+    }
+
+.navbar-nav .nav-link.active {
+    font-weight: bold; /* Police en gras pour l'élément actif */
+    }
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Couleur du texte au survol */
+    }
+
+.navbar .btn {
+    color: white; /* Couleur du texte du bouton en blanc */
+    background: linear-gradient(to right, #007bff, #2196f3); /* Dégradé linéaire de bleu pour le bouton */
+    border: none; /* Supprimer la bordure du bouton */
+    margin-left: 10px; /* Espacement entre le bouton et les éléments de la barre de navigation */
+    }
+
+.navbar .btn:hover {
+    background: linear-gradient(to right, #0056b3, #007bff); /* Dégradé linéaire de bleu plus foncé au survol */
+    }
